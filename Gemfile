@@ -10,6 +10,7 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails'
   gem 'childprocess'
+  gem 'rspec-its'
 end
 
 group :test do
