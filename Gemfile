@@ -18,6 +18,8 @@ group :test do
   gem 'capybara'
   gem 'rspec-nc'
   gem 'factory_girl_rails', '4.2.0'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.3'
